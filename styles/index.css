@@ -1,9 +1,30 @@
-#booktitle { font-weight: bold;
+#bookTitle { font-weight: bold;
+    text-align: center;
 
 }
 
 #authortag {
-    font-style: italic
+    font-style: italic;
+    text-align: center;
+}
+#titleCenter{
+    text-align: center;
+}
+
+#actualPrice{
+font-weight: bold;
+font-size: 20px;
+}
+#previousPrice{
+    text-decoration: line-through;
+}
+#saving{
+    font-size: 10px;
+
+}
+#description{
+    padding-right: 60px;
+    padding-left: 60px; 
 }
 
 #imgAboutUs {
@@ -13,6 +34,10 @@
     right: 0px;
     width: 100%;
     height: 250px;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+
     
  }
  #imgAboutUs2{
@@ -24,3 +49,6 @@
     height: 250px;
 
  }
+ @import "https://fonts.googleapis.com/css?family=Open+Sans";
+
+body{ font-family: 'Open Sans', sans-serif;}
