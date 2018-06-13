@@ -1,0 +1,26 @@
+#booktitle { font-weight: bold;
+
+}
+
+#authortag {
+    font-style: italic
+}
+
+#imgAboutUs {
+    position: static;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 250px;
+    
+ }
+ #imgAboutUs2{
+    position: static;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 250px;
+
+ }
