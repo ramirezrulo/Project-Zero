@@ -2,6 +2,27 @@
     text-align: center;
 
 }
+#headingcolor1{
+    background-color: #fafafa;
+    padding: 15px;
+    color: #7c7c7c;
+
+}
+#BreakSectionBar{
+    background-color: #27476E;
+    color: #FFFFFf;
+    padding: 40px;
+}
+#Maincolor{
+    background-color: #fafafa;
+
+}
+#shippingbar{
+    background-color: #ff6e40;
+    padding: 0px;
+    color: #FFFFFf;
+    
+}
 
 #authortag {
     font-style: italic;
@@ -37,8 +58,6 @@ font-size: 20px;
     margin: 0%;
     padding: 0%;
     border: 0%;
-
-    
  }
  #imgAboutUs2{
     position: static;
@@ -49,6 +68,27 @@ font-size: 20px;
     height: 250px;
 
  }
+
+ .table {
+    font-family: arial, sans-serif;
+       border-collapse: collapse;
+       width: 100%;
+   }
+   
+   .talbe {
+       border: 1px solid #4d2121;
+       text-align: left;
+       padding: 8px;
+   }
+       .table {
+        border: 1px solid #611e1e;
+        text-align: left;
+        padding: 8px;
+
  @import "https://fonts.googleapis.com/css?family=Open+Sans";
 
 body{ font-family: 'Open Sans', sans-serif;}
+
+/* *{
+    background-color: blueviolet;
+} */
