@@ -7,6 +7,21 @@
 // }
 
 
-(function() {
-    
-})
+ 
+
+    function numberOfBooks (){
+        var a = document.querySelector('btn.quantity').value; // it is not taking the class/value. Can't use "btn btn-default" as a class, shows an error.
+        console.log(a);
+        //this.quanityBooks =
+    };
+
+    var quanityQuantity = document.querySelector(Option.Quantity);
+    var quantityOne = document.querySelector(Option.One);
+    var quantityTwo = document.querySelector(Option.Two);
+    var quantityThree = document.querySelector(Option.Three);
+    var quantityFour = document.querySelector(Option.Four);
+    var quantityFive = document.querySelector(Option.Five);
+
+    quanityQuantity.addEventListener('click', (i) =>{
+
+    }
