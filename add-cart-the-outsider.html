@@ -15,12 +15,12 @@
 </head>
 
 <body class="container-fluid">
-    <header class="row jumbotron">
-        <h2 class="col-sm-4">
-            <a href="index.html">Bookstore</a>
-        </h2>
+    <a href="index.html">
+        <img class="col-sm-4" id="logo" src="img/logo.png">
+    </a>
+    <header class="row jumbotron" id="rowjumbo">
 
-        <nav class="col-sm-8">
+        <nav class="col-sm-8" id="headerbar">
 
             <ul class="nav navbar-nav nav navbar-nav navbar-right">
                 <li>
@@ -73,7 +73,7 @@
                     <table class="table">
                         <tr class="table">
                             <td>Subtotal</td>
-                            <td>$17.99</td>
+                            <td >$<span id="subtotalPrice">17.99</span></td>
 
                         </tr>
                         <tr>
@@ -88,16 +88,15 @@
                         </tr>
                         <tr>
                             <th>Order Total:</th>
-                            <th class="fin">$17.99</th>
+                            <th >$<span id="totalPrice">17.99</span></th>
                         </tr>
                     </table>
                 </section>
                 <button type="Submit" class="btn">Check Out</button>
 
 
-                <select class="btn">   
-                    <!--CHANGED THE CLASS FROM "btn btn-default" TO "btn" TO USE THE CLASS EN JS. -->
-                    <option  value="0">Quantity</option>
+                <select class="btn">
+                    <option value="1">Quantity</option>
                     <option value="1">One (1)</option>
                     <option value="2">Two (2)</option>
                     <option value="3">Three (3)</option>
@@ -143,6 +142,7 @@
     </fotter>
 
     <script src="scripts/index.js"></script>
+    <script src="scripts/shoppingCart.js"></script>
 
 </body>
 

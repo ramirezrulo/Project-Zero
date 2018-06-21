@@ -1,13 +1,27 @@
 #bookTitle { font-weight: bold;
     text-align: center;
-
 }
 #headingcolor1{
     background-color: #fafafa;
     padding: 15px;
     color: #7c7c7c;
-
 }
+#rowjumbo{
+    margin-bottom: 0%;
+    height: 110px;
+    padding: 0px
+}
+
+#logo{
+    height: 108px;
+    width: 350px;
+    padding-top: 2px;
+}
+#headerbar{
+    font-size: 18px;
+    padding-top: 35px; 
+}
+
 #BreakSectionBar{
     background-color: #27476E;
     color: #FFFFFf;
@@ -21,7 +35,6 @@
     background-color: #ff6e40;
     padding: 0px;
     color: #FFFFFf;
-    
 }
 
 #authortag {
