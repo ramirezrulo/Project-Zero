@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/ramirezrulo/Project-Zero#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "nunjucks": "^3.1.3"
   }
 }
