@@ -1,0 +1,30 @@
+{% extends 'header-footer.nunjucks' %} 
+
+{% block header %}
+
+<main>
+<h2 id="bookTitle" >The Outsider</h2>
+<p id="titleCenter"><span id="authortag">Author:</span> Stephen King</p>
+<figure id="titleCenter">
+<img  src="img/the-outsider.jpg" alt="">
+</figure>
+<p id="titleCenter"> Hardcover</p>
+<p id="titleCenter">
+    <span id="actualPrice">$17.99</span>
+    <span id="previousPrice">$30.00</span>
+    <span>     </span>
+    <span>|</span>
+    <span id="saving">Save 40%</span>
+</p>
+<section id="titleCenter" class="wrapper">
+    <a href="add-cart-the-outsider.html" <button type="reset" class="btn btn-primary">ADD TO CART</button></a>
+   <a href="check-out-the-outsider.html"> <button type="Submit" class="btn btn-default" >Instant Purchase</button></a>
+</section>
+<h3 id="titleCenter">Overview</h3>
+<p id="description">An unspeakable crime. A confounding investigation. At a time when the King brand has never been stronger, he has delivered one of his most unsettling and compulsively readable stories. </p>
+
+  <p id="description">An eleven-year-old boy’s violated corpse is found in a town park. Eyewitnesses and fingerprints point unmistakably to one of Flint City’s most popular citizens. He is Terry Maitland, Little League coach, English teacher, husband, and father of two girls. Detective Ralph Anderson, whose son Maitland once coached, orders a quick and very public arrest. Maitland has an alibi, but Anderson and the district attorney soon add DNA evidence to go with the fingerprints and witnesses. Their case seems ironclad.</p>    
+   <p id="description">As the investigation expands and horrifying answers begin to emerge, King’s propulsive story kicks into high gear, generating strong tension and almost unbearable suspense. Terry Maitland seems like a nice guy, but is he wearing another face? When the answer comes, it will shock you as only Stephen King can.</p>
+    </main>
+
+{% block footer %}

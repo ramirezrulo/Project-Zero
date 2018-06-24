@@ -1,31 +1,40 @@
+ 
+ {% block header %}
+ <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <title>Bookstore</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="index.css">
 
 </head>
-    {% block header %}
+ 
 
-        <header class="row jumbotron" id="rowjumbo">
+
+    <body class="container-fluid">
+    <header class="row text-center" id="shippingbar">Free shipping in all your orders!</header>
+    <a href="/">
+        <img class="col-sm-4" id="logo" src="logo.png">
+    </a>
+    <header class="row jumbotron" id="rowjumbo">
 
         <nav class="col-sm-8" id="headerbar">
 
             <ul class="nav navbar-nav nav navbar-nav navbar-right" >
                 <li>
-                    <a href="sales.html">Sales</a>
+                    <a href="sales">Sales</a>
                 </li>
                 <li>
-                    <a href="about-us.html">About Us</a>
+                    <a href="about-us">About Us</a>
                 </li>
                 <li>
-                    <a href="contact-us.html">Contact Us</a>
+                    <a href="contact-us">Contact Us</a>
                 </li>
                 <li class="navbar-form navbar-right">
                     <form class="navbar-form navbar-right">
@@ -41,22 +50,62 @@
     <nav class="col-sm-12" id="headingcolor1">
         <ul class="nav navbar-nav">
             <li>
-                <a href="popular.html">Popular</a>
+                <a href="popular">Popular</a>
             </li>
             <li>
-                <a href="kids.html">Kids</a>
+                <a href="kids">Kids</a>
             </li>
             <li>
-                <a href="teens.html">Teens</a>
+                <a href="teens">Teens</a>
             </li>
             <li>
-                <a href="electronic-books.html">Electronic Books</a>
+                <a href="electronic-books">Electronic Books</a>
             </li>
             <li>
-                <a href="audiobooks.html">Audiobooks</a>
+                <a href="audiobooks">Audiobooks</a>
             </li>
             <li>
-                <a href="accessories.html">Accessories</a>
+                <a href="accessories">Accessories</a>
             </li>
         </ul>
     </nav>
+
+{% endblock %}
+
+{% block footer %}
+  <fotter class="row">
+        <nav class="col-sm-6 col-sm-offset-3">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="#">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-youtube fa-2x"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="about-us">About Us</a>
+                </li>
+                <li>
+                    <a href="best-sellers">Best Sellers</a>
+                </li>
+                <li>
+                    <a href="contact-us">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <small class="col-sm-12 text-center">
+            copyright &copy;; 2018 Raul Ramirez, all rights reserved.
+        </small>
+    </fotter>
+{% endblock %}
+</body>
+</html>

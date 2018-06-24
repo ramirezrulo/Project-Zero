@@ -1,6 +1,22 @@
 var express = require('express');
 const app = express()
 var path = require('path');
+var nunjucks = require('nunjucks');
+var bodyParser = require('body-parser');
+
+/// Get nunjucks working
+nunjucks.configure('templates', {
+    autoescape: true,
+    express: app
+});
+
+
+app.set('view engine', 'nunjucks');
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({
+    extended: false
+}));
+/// Get nunjucks working
 
 app.use(express.static('img'));
 app.use(express.static('styles'));
