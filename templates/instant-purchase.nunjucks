@@ -1,0 +1,63 @@
+{% extends 'header-footer.nunjucks' %} 
+
+{% block shippingBar %}
+{% endblock %}
+
+
+{% block main %}
+
+ <main class="row">
+        <h2 class="col-sm-12" id="BreakSectionBar">
+            Don't forget to read more
+        </h2>
+
+      
+
+        <section class="col-sm-12">
+            <article class="col-sm-6">
+                <header>
+                    <h3 id="bookTitle">The Outsider</h3>
+                </header>
+                <section>
+                        <p id="titleCenter"><span id="authortag">Author:</span> Stephen King</p>
+                        <figure id="titleCenter">
+                        <img  src="the-outsider.jpg" alt="">
+                        </figure>
+                        <p id="titleCenter"> Hardcover</p>
+                     </section>
+                        </article>
+
+            <article class="col-sm-6">
+                <header>
+                    <h3>Order Summary</h3>
+                </header>
+
+                <section >
+                    <table class="table">
+                            <tr class="table">
+                              <td>Subtotal</td>
+                              <td id="subtotalPrice" value="17.99">17.99</td>
+                              
+                            </tr>
+                            <tr>
+                              <td id="t">Estimated Shipping</td>
+                              <td>Free Shipping</td>
+                             
+                            </tr>
+                            <tr>
+                              <td>Estimated Tax</td>
+                              <td>$0.00</td>
+                              
+                            </tr>
+                            <tr>
+                              <th>Order Total:</th>
+                              <th>$17.99</th>
+                              </tr>
+                          </table>
+                </section>
+                <button type="Submit" class="btn btn-default" >Check Out</button>
+                
+            </article>
+        </section>
+    </main>
+{% endblock %}

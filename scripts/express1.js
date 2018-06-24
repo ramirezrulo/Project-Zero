@@ -10,7 +10,6 @@ nunjucks.configure('templates', {
     express: app
 });
 
-
 app.set('view engine', 'nunjucks');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
@@ -21,102 +20,139 @@ app.use(bodyParser.urlencoded({
 app.use(express.static('img'));
 app.use(express.static('styles'));
 app.use(express.static('scripts'));
-app.use(express.static('styles'));
 
-app.get('/', (request, response) => {
-    response.sendFile(path.join(__dirname, '../index.html'));
+app.route("/")
+.get((req, res) => {
+res.render('index');
 });
 
-app.get('/contact-us', (request, response) => {
-    response.sendFile(path.join(__dirname, '../contact-us.html'));
+app.route("/about-us")
+.get((req, res) => {
+res.render('about-us');
 });
 
-app.get('/about-us', (request, response) => {
-    response.sendFile(path.join(__dirname, '../about-us.html'));
+app.route("/contact-us")
+.get((req, res) => {
+res.render('contact-us');
 });
 
-app.get('/sales', (request, response) => {
-    response.sendFile(path.join(__dirname, '../sales.html'));
+app.route("/sales")
+.get((req, res) => {
+res.render('sales');
 });
 
-app.get('/popular', (request, response) => {
-    response.sendFile(path.join(__dirname, '../popular.html'));
+app.route("/popular")
+.get((req, res) => {
+res.render('popular');
 });
 
-app.get('/kids', (request, response) => {
-    response.sendFile(path.join(__dirname, '../kids.html'));
+app.route("/kids")
+.get((req, res) => {
+res.render('kids');
 });
 
-app.get('/teens', (request, response) => {
-    response.sendFile(path.join(__dirname, '../teens.html'));
+app.route("/teens")
+.get((req, res) => {
+res.render('teens');
 });
 
-app.get('/electronic-books', (request, response) => {
-    response.sendFile(path.join(__dirname, '../electronic-books.html'));
+app.route("/electronic-books")
+.get((req, res) => {
+res.render('electronic-books');
 });
 
-app.get('/audiobooks', (request, response) => {
-    response.sendFile(path.join(__dirname, '../audiobooks.html'));
+app.route("/audiobooks")
+.get((req, res) => {
+res.render('audiobooks');
 });
 
-app.get('/accessories', (request, response) => {
-    response.sendFile(path.join(__dirname, '../accessories.html'));
+app.route("/accessories")
+.get((req, res) => {
+res.render('accessories');
 });
 
-app.get('/bookstore-recommendation', (request, response) => {
-    response.sendFile(path.join(__dirname, '../bookstore-recommendation.html'));
+app.route("/bookstore-recommendation")
+.get((req, res) => {
+res.render('bookstore-recommendation');
 });
 
-app.get('/new-releases', (request, response) => {
-    response.sendFile(path.join(__dirname, '../new-releases.html'));
+app.route("/new-releases")
+.get((req, res) => {
+res.render('new-releases');
 });
 
-app.get('/most-popular', (request, response) => {
-    response.sendFile(path.join(__dirname, '../most-popular.html'));
+app.route("/most-popular")
+.get((req, res) => {
+res.render('most-popular');
 });
 
-app.get('/best-sellers', (request, response) => {
-    response.sendFile(path.join(__dirname, '../best-sellers.html'));
+app.route("/best-sellers")
+.get((req, res) => {
+res.render('best-sellers');
 });
+
 ////////////////BOOKS/////////////////////
-app.get('/the-outsider', (request, response) => {
-    response.sendFile(path.join(__dirname, '../the-outsider.html'));
+
+app.route("/the-outsider")
+.get((req, res) => {
+res.render('the-outsider');
 });
 
-app.get('/the-alchemist', (request, response) => {
-    response.sendFile(path.join(__dirname, '../the-alchemist.html'));
+app.route("/the-alchemist")
+.get((req, res) => {
+res.render('the-alchemist');
 });
 
-app.get('/the-12-rules-for-life', (request, response) => {
-    response.sendFile(path.join(__dirname, '../the-12-rules-for-life.html'));
+app.route("/the-12-rules-for-life'")
+.get((req, res) => {
+res.render('the-12-rules-for-life');
 });
 
-app.get('/you-are-a-badass', (request, response) => {
-    response.sendFile(path.join(__dirname, '../you-are-a-badass.html'));
+app.route("/you-are-a-badass")
+.get((req, res) => {
+res.render('you-are-a-badass');
 });
 
-app.get('/elevation', (request, response) => {
-    response.sendFile(path.join(__dirname, '../elevation.html'));
+app.route("/elevation")
+.get((req, res) => {
+res.render('elevation');
 });
 
-app.get('/the-4-hour-work-week', (request, response) => {
-    response.sendFile(path.join(__dirname, '../the-4-hour-work-week.html'));
+app.route("/the-4-hour-work-week")
+.get((req, res) => {
+res.render('the-4-hour-work-week');
 });
 
-app.get('/robin', (request, response) => {
-    response.sendFile(path.join(__dirname, '../robin.html'));
+app.route("/robin")
+.get((req, res) => {
+res.render('robin');
 });
 
-app.get('/milk-and-honey', (request, response) => {
-    response.sendFile(path.join(__dirname, '../milk-and-honey.html'));
+app.route("/milk-and-honey")
+.get((req, res) => {
+res.render('milk-and-honey');
 });
 
-app.get('/think-and-grow-rich', (request, response) => {
-    response.sendFile(path.join(__dirname, '../think-and-grow-rich.html'));
+app.route("/think-and-grow-rich")
+.get((req, res) => {
+res.render('think-and-grow-rich');
 });
 
-app.get('/kings-cage', (request, response) => {
-    response.sendFile(path.join(__dirname, '../kings-cage.html'));
+app.route("/kings-cage")
+.get((req, res) => {
+res.render('kings-cage');
 });
+////////////////END OF BOOKS//////////////
+
+app.route("/instant-purchase")
+.get((req, res) => {
+res.render('instant-purchase');
+});
+
+app.route("/add-to-cart-the-outsider")
+.get((req, res) => {
+res.render('add-to-cart-the-outsider');
+});
+
 
 app.listen(5050);

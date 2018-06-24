@@ -1,6 +1,8 @@
  
  {% block header %}
  <!DOCTYPE html>
+
+ 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,10 +17,13 @@
 
 </head>
  
-
+{% block shippingBar %}
 
     <body class="container-fluid">
     <header class="row text-center" id="shippingbar">Free shipping in all your orders!</header>
+    
+{% endblock %}
+
     <a href="/">
         <img class="col-sm-4" id="logo" src="logo.png">
     </a>
@@ -72,6 +77,10 @@
 
 {% endblock %}
 
+{% block main %}
+
+{% endblock %}
+
 {% block footer %}
   <fotter class="row">
         <nav class="col-sm-6 col-sm-offset-3">
@@ -106,6 +115,8 @@
             copyright &copy;; 2018 Raul Ramirez, all rights reserved.
         </small>
     </fotter>
-{% endblock %}
+
 </body>
 </html>
+
+{% endblock %}

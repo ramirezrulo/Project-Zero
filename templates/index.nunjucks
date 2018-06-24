@@ -1,0 +1,189 @@
+{% extends 'header-footer.nunjucks' %} 
+
+{% block main %}
+  <main class="row" id="maincolor">
+
+
+        <a href="bookstore-recommendation">
+            <section class="col-sm-3">
+                <figure>
+                    <img src="book.jpg" alt="Bookstore recommends" title="Bookstore recommends" class="img-responsive">
+                    <figcaption>Bookstore recommendation</figcaption>
+                </figure>
+            </section>
+        </a>
+        <a href="new-releases">
+            <section class="col-sm-3">
+                <figure>
+                    <img src="book1.jpg" alt="New Releases" title="New Releases" class="img-responsive">
+                    <figcaption>New Releases
+                    </figcaption>
+                </figure>
+            </section>
+        </a>
+        <a href="most-popular">
+            <section class="col-sm-3">
+                <figure>
+                    <img src="book2.jpg" alt="Most Popular" title="Most Popular" class="img-responsive">
+                    <figcaption>Most Popular</figcaption>
+                </figure>
+            </section>
+        </a>
+        <a href="best-sellers">
+            <section class="col-sm-3">
+                <figure>
+                    <img src="book3.jpg" alt="Best Sellers" title="Best Sellers" class="img-responsive">
+                    <figcaption>Best Sellers</figcaption>
+                </figure>
+            </section>
+        </a>
+
+        <h3 class="col-sm-12" id="BreakSectionBar">
+            Where your journey begins...</h3>
+
+        <section class="col-sm-12 text-center" >
+            <header>
+                <h3>The Most Popular</h3>
+            </header>
+
+            <article class="col-sm-2 text-center">
+                <a href="the-outsider">
+                    <img src="the-outsider.jpg" alt="" style="width:120px;height:200px;border:0;">
+                    <footer>
+                        <span id="booktitle">The Outsider</span>
+                        <p>
+                            <span id="authortag"> Author:</span> Stephen King</p>
+                    </footer>
+                </a>
+                <h4 class="text-center">$17.99</h4>
+            </article>
+
+            <article class="col-sm-2 text-center">
+                <a href="the-alchemist">
+                    <img src="the-alchemist.jpg" alt="" style="width:120px;height:200px;border:0;">
+                    <footer>
+                        <span id="booktitle">The Alchemist</span>
+                        <p>
+                            <span id="authortag"> Author:</span> Paulo Coelho</p>
+                    </footer>
+                </a>
+                <h4 class="text-center">$10.51</h4>
+            </article>
+
+            <article class="col-sm-2 text-center">
+                <a href="the-12-rules-for-life">
+                    <img src="12rules.jpg" alt="" style="width:120px;height:200px;border:0;">
+
+                    <footer>
+                        <span id="booktitle">The 12 Rules for Life</span>
+                        <p>
+                            <span id="authortag"> Author:</span> Jordan B. Peterson</p>
+                    </footer>
+                </a>
+                <h4 class="text-center">$15.57</h4>
+
+            </article>
+
+            <article class="col-sm-2 text-center">
+                <a href="you-are-a-badass">
+                    <img src="youbadass.jpg" alt="" style="width:120px;height:200px;border:0;">
+
+                    <footer>
+                        <span id="booktitle">You Are a Badass</span>
+                        <p>
+                            <span id="authortag"> Author:</span> Jen Sincero</p>
+                    </footer>
+                </a>
+                <h4 class="text-center">$10.26</h4>
+
+
+            </article>
+
+            <article class="col-sm-2 text-center">
+                <a href="elevation">
+                    <img src="elevation.jpg" alt="" style="width:120px;height:200px;border:0;">
+
+                    <footer>
+                        <span id="booktitle">Elevation</span>
+                        <p>
+                            <span id="authortag"> Author:</span>Stephen King</p>
+                    </footer>
+                </a>
+                <h4 class="text-center">$12.82</h4>
+            </article>
+        </section>
+
+        
+        <section class="col-sm-12 text-center">
+            <header>
+                <h3>Electronic Books</h3>
+            </header>
+            <article class="col-sm-2 text-center">
+                <a href="the-4-hour-work-week">
+                    <img src="the4ww.jpg" alt="" style="width:120px;height:200px;border:0;">
+
+                    <footer>
+                        <span id="booktitle">The 4 Hour Work Week</span>
+                        <p>
+                            <span id="authortag"> Author:</span> Timothy Ferris </p>
+                    </footer>
+                </a>
+                <h4 class="text-center">$17.24</h4>
+            </article>
+
+            <article class="col-sm-2 text-center">
+                <a href="robin">
+                    <img src="robin.jpg" alt="" style="width:120px;height:200px;border:0;">
+
+                    <footer>
+                        <span id="booktitle">Robin</span>
+                        <p>
+                            <span id="authortag"> Author:</span> Dave Itzkoff</p>
+                    </footer>
+                </a>
+                <h4 class="text-center">$19.16</h4>
+            </article>
+
+            <article class="col-sm-2 text-center">
+                <a href="milk-and-honey">
+                    <img src="honey-milk.jpg" alt="" style="width:120px;height:200px;border:0;">
+                    <footer>
+                        <span id="booktitle">Milk and Honey</span>
+                        <p>
+                            <span id="authortag"> Author:</span> Rupi Kaur</p>
+                    </footer>
+                </a>
+                <h4 class="text-center">$9.46</h4>
+            </article>
+
+            <article class="col-sm-2 text-center">
+                <a href="think-and-grow-rich">
+                    <img src="think-rich.jpg" alt="" style="width:120px;height:200px;border:0;">
+
+
+                    <footer>
+                        <span id="booktitle">Think and Grow Rich</span>
+                        <p>
+                            <span id="authortag"> Author:</span> Napoleon Hill</p>
+                    </footer>
+                </a>
+                <h4 class="text-center">$6.42</h4>
+            </article>
+
+            <article class="col-sm-2 text-center">
+                <a href="kings-cage">
+                    <img src="kings-cage.jpg" alt="" style="width:120px;height:200px;border:0;">
+
+                    <footer>
+                        <span id="booktitle">King's Cage</span>
+                        <p>
+                            <span id="authortag"> Author:</span> Victoria Aveyard</p>
+                    </footer>
+                </a>
+                <h4 class="text-center">$14.29</h4>
+            </article>
+        </section>
+
+    </main>
+
+    {% endblock %}

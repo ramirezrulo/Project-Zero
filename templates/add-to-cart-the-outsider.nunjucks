@@ -1,0 +1,69 @@
+{% extends 'header-footer.nunjucks' %} 
+
+{% block main %}
+  <main class="row">
+        <h2 class="col-sm-12" id="BreakSectionBar">
+            Don't forget to read more
+        </h2>
+
+
+
+        <section class="col-sm-12">
+            <article class="col-sm-6">
+                <header>
+                    <h3 id="bookTitle">The Outsider</h3>
+                </header>
+                <section>
+                    <p id="titleCenter">
+                        <span id="authortag">Author:</span> Stephen King</p>
+                    <figure id="titleCenter">
+                        <img src="the-outsider.jpg" alt="">
+                    </figure>
+                    <p id="titleCenter"> Hardcover</p>
+                </section>
+            </article>
+
+            <article class="col-sm-6">
+                <header>
+                    <h3>Order Summary</h3>
+                </header>
+
+                <section>
+                    <table class="table">
+                        <tr class="table">
+                            <td>Subtotal</td>
+                            <td >$<span id="subtotalPrice">17.99</span></td>
+
+                        </tr>
+                        <tr>
+                            <td id="t">Estimated Shipping</td>
+                            <td>Free Shipping</td>
+
+                        </tr>
+                        <tr>
+                            <td>Estimated Tax</td>
+                            <td>$0.00</td>
+
+                        </tr>
+                        <tr>
+                            <th>Order Total:</th>
+                            <th >$<span id="totalPrice">17.99</span></th>
+                        </tr>
+                    </table>
+                </section>
+                <button type="Submit" class="btn">Check Out</button>
+
+
+                <select class="btn">
+                    <option value="1">Quantity</option>
+                    <option value="1">One (1)</option>
+                    <option value="2">Two (2)</option>
+                    <option value="3">Three (3)</option>
+                    <option value="4">Four (4)</option>
+                    <option value="5">Five (5)</option>
+                </select>
+            </article>
+        </section>
+    </main>
+
+  {% endblock %}

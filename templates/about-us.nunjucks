@@ -1,5 +1,21 @@
 {% extends 'header-footer.nunjucks' %} 
 
-{% block header %}
 
-{% block footer %}
+
+{% block main %}
+
+<h1 class=" text-center">About Our Team</h1>
+<section class="img-container">
+
+           <img class="inner-container" id="imgAboutUs" style="width:100%" src="aboutus.jpg" alt="banner image" title="" >
+            
+           <h2 class="text-center">Our mission is to allow people and business to develope their true potential.</h2>
+    </section>
+<section class="img-container">
+    
+    <img class="inner-container" id="imgAboutUs2" style="width: 100%" src="book4.jpg">
+
+    </section>
+
+
+{% endblock %}
