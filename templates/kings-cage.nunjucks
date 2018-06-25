@@ -1,0 +1,32 @@
+{% extends 'header-footer.nunjucks' %} 
+
+{% block main %}
+
+ <main>
+<h2 id="bookTitle" >King's Cage (Red Queen Series #3)</h2>
+<p id="titleCenter"><span id="authortag">Author:</span> Victoria Aveyard</p>
+<figure id="titleCenter">
+<img  src="kings-cage.jpg" alt="">
+</figure>
+<p id="titleCenter"> Hardcover</p>
+<p id="titleCenter">
+    <span id="actualPrice">$14.29</span>
+    <span id="previousPrice">$19.99</span>
+    <span>     </span>
+    <span>|</span>
+    <span id="saving">Save 29%</span>
+</p>
+<section id="titleCenter" class="wrapper">
+    <button type="reset" class="btn btn-primary">ADD TO CART</button>
+    <button type="Submit" class="btn btn-default">Instant Purchase</button>
+</section>
+<h3 id="titleCenter">Overview</h3>
+<p id="description">In this breathless third installment to Victoria Aveyard’s #1 New York Times bestselling Red Queen series, rebellion is rising and allegiances will be tested on every side.</p>
+
+  <p id="description">Mare Barrow is a prisoner, powerless without her lightning, tormented by her lethal mistakes. She lives at the mercy of a boy she once loved, a boy made of lies and betrayal. Now a king, Maven Calore continues weaving his dead mother's web in an attempt to maintain control over his country—and his prisoner. </p>    
+   <p id="description">As Mare bears the weight of Silent Stone in the palace, her once-ragtag band of newbloods and Reds continue organizing, training, and expanding. They prepare for war, no longer able to linger in the shadows. And Cal, the exiled prince with his own claim on Mare's heart, will stop at nothing to bring her back.</p>
+  
+    </main>
+
+
+     {% endblock %}

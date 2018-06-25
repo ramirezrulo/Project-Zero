@@ -16,6 +16,8 @@
     <span>|</span>
     <span id="saving">Save 40%</span>
 </p>
+
+
 <section id="titleCenter" class="wrapper">
     <a href="add-to-cart-the-outsider" <button type="reset" class="btn btn-primary">ADD TO CART</button></a>
    <a href="instant-purchase"> <button type="Submit" class="btn btn-default" >Instant Purchase</button></a>

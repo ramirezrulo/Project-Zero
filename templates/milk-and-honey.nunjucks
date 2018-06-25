@@ -1,0 +1,30 @@
+{% extends 'header-footer.nunjucks' %} 
+
+{% block main %}
+
+<main>
+<h2 id="bookTitle" >Robin</h2>
+<p id="titleCenter"><span id="authortag">Author:</span>Rupi Kaur</p>
+<figure id="titleCenter">
+<img  src="honey-milk.jpg" alt="">
+</figure>
+<p id="titleCenter"> Hardcover</p>
+<p id="titleCenter">
+    <span id="actualPrice">$9.46</span>
+    <span id="previousPrice">$14.99</span>
+    <span>     </span>
+    <span>|</span>
+    <span id="saving">Save 37%</span>
+</p>
+<section id="titleCenter" class="wrapper">
+    <button type="reset" class="btn btn-primary">ADD TO CART</button>
+    <button type="Submit" class="btn btn-default">Instant Purchase</button>
+</section>
+<h3 id="titleCenter">Overview</h3>
+<p id="description">milk and honey is a collection of poetry and prose about survival. About the experience of violence, abuse, love, loss, and femininity.</p>
+
+  <p id="description"> The book is divided into four chapters, and each chapter serves a different purpose. Deals with a different pain. Heals a different heartache. milk and honey takes readers through a journey of the most bitter moments in life and finds sweetness in them because there is sweetness everywhere if you are just willing to look.</p>    
+  
+ </main>
+
+   {% endblock %}

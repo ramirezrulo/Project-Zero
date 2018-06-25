@@ -103,7 +103,7 @@ app.route("/the-alchemist")
 res.render('the-alchemist');
 });
 
-app.route("/the-12-rules-for-life'")
+app.route('/the-12-rules-for-life')
 .get((req, res) => {
 res.render('the-12-rules-for-life');
 });

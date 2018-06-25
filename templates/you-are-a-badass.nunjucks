@@ -1,0 +1,30 @@
+{% extends 'header-footer.nunjucks' %} 
+
+{% block main %}
+
+ <main>
+<h2 id="bookTitle" >You Are a Badass: How to Stop Doubting Your Greatness and Start Living an Awesome Life</h2>
+<p id="titleCenter"><span id="authortag">Author:</span> Jen Sincero </p>
+<figure id="titleCenter">
+<img  src="youbadass.jpg" alt="">
+</figure>
+<p id="titleCenter"> Hardcover</p>
+<p id="titleCenter">
+    <span id="actualPrice">$10.26</span>
+    <span id="previousPrice">$16.00</span>
+    <span>     </span>
+    <span>|</span>
+    <span id="saving">Save 36%</span>
+</p>
+<section id="titleCenter" class="wrapper">
+    <button type="reset" class="btn btn-primary">ADD TO CART</button>
+    <button type="Submit" class="btn btn-default">Instant Purchase</button>
+</section>
+<h3 id="titleCenter">Overview</h3>
+<p id="description">YOU ARE A BADASS IS THE SELF-HELP BOOK FOR PEOPLE WHO DESPERATELY WANT TO IMPROVE THEIR LIVES BUT DON'T WANT TO GET BUSTED DOING IT.</p>
+
+  <p id="description">In this refreshingly entertaining how-to guide, bestselling author and world-traveling success coach, Jen Sincero, serves up 27 bitesized chapters full of hilariously inspiring stories, sage advice, easy exercises, and the occasional swear word, helping you to: Identify and change the self-sabotaging beliefs and behaviors that stop you from getting what you want, Create a life you totally love. And create it NOW, Make some damn money already. The kind you've never made before.</p>    
+   <p id="description">By the end of You Are a Badass, you'll understand why you are how you are, how to love what you can't change, how to change what you don't love, and how to use The Force to kick some serious ass.</p>
+    </main>
+
+       {% endblock %}

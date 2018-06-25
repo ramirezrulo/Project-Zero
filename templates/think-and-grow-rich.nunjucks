@@ -1,0 +1,32 @@
+{% extends 'header-footer.nunjucks' %} 
+
+{% block main %}
+
+
+ <main>
+<h2 id="bookTitle" >Think and Grow Rich</h2>
+<p id="titleCenter"><span id="authortag">Author:</span> Napoleon Hill</p>
+<figure id="titleCenter">
+<img  src="think-rich.jpg" alt="">
+</figure>
+<p id="titleCenter"> Hardcover</p>
+<p id="titleCenter">
+    <span id="actualPrice">$6.42</span>
+    <span id="previousPrice">$10.00</span>
+    <span>     </span>
+    <span>|</span>
+    <span id="saving">Save 36%</span>
+</p>
+<section id="titleCenter" class="wrapper">
+    <button type="reset" class="btn btn-primary">ADD TO CART</button>
+    <button type="Submit" class="btn btn-default">Instant Purchase</button>
+</section>
+<h3 id="titleCenter">Overview</h3>
+<p id="description">Think and Grow Rich has been called the "Granddaddy of All Motivational Literature." It was the first book to boldly ask, "What makes a winner?" The man who asked and listened for the answer, Napoleon Hill, is now counted in the top ranks of the world's winners himself.</p>
+
+  <p id="description"> The most famous of all teachers of success spent "a fortune and the better part of a lifetime of effort" to produce the "Law of Success" philosophy that forms the basis of his books and that is so powerfully summarized in this one.</p>    
+   <p id="description">In the original Think and Grow Rich, published in 1937, Hill draws on stories of Andrew Carnegie, Thomas Edison, Henry Ford, and other millionaires of his generation to illustrate his principles. In the updated version, Arthur R. Pell, Ph.D., a nationally known author, lecturer, and consultant in human resources management and an expert in applying Hill's thought, deftly interweaves anecdotes of how contemporary millionaires and billionaires, such as Bill Gates, Mary Kay Ash, Dave Thomas, and Sir John Templeton, achieved their wealth. Outmoded or arcane terminology and examples are faithfully refreshed to preclude any stumbling blocks to a new generation of readers.</p>
+  
+    </main>
+
+         {% endblock %}

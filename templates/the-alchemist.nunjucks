@@ -1,0 +1,37 @@
+{% extends 'header-footer.nunjucks' %} 
+
+{% block main %}
+
+    <main>
+        <h2 id="bookTitle">The Alchemist</h2>
+        <p id="titleCenter">
+            <span id="authortag">Author:</span> Paulo Coelho</p>
+        <figure id="titleCenter">
+            <img src="the-alchemist.jpg" alt="">
+        </figure>
+        <p id="titleCenter"> Hardcover</p>
+        <p id="titleCenter">
+            <span id="actualPrice">$10.51</span>
+            <span id="previousPrice">$16.99</span>
+            <span> </span>
+            <span>|</span>
+            <span id="saving">Save 38%</span>
+        </p>
+        <section id="titleCenter" class="wrapper">
+            <button type="reset" class="btn btn-primary">ADD TO CART</button>
+            <button type="Submit" class="btn btn-default">Instant Purchase</button>
+        </section>
+        <h3 id="titleCenter">Overview</h3>
+        <p id="description">A special 25th anniversary edition of Paulo Coehlo's extraordinary international bestselling phenomenon—the inspiring
+            spiritual tale of self-discovery that has touched millions of lives around the world. </p>
+
+        <p id="description">Combing magic, mysticism, wisdom and wonder, The Alchemist has become a modern classic, selling millions of copies
+            around the world and transforming the lives of countless readers across generations.</p>
+        <p id="description">Paulo Coelho's masterpiece tells the mystical story of Santiago, an Andalusian shepherd boy who yearns to travel
+            in search of a worldly treasure. His quest will lead him to riches far different—and far more satisfying—than
+            he ever imagined. Santiago's journey teaches us about the essential wisdom of listening to our hearts, of recognizing
+            opportunity and learning to read the omens strewn along life's path, and, most importantly, to follow our dreams.</p>
+    </main>
+
+    
+   {% endblock %}
