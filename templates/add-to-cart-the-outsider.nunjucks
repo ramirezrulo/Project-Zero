@@ -6,8 +6,6 @@
             Don't forget to read more
         </h2>
 
-
-
         <section class="col-sm-12">
             <article class="col-sm-6">
                 <header>
@@ -47,14 +45,14 @@
                         </tr>
                         <tr>
                             <th>Order Total:</th>
-                            <th >$<span id="totalPrice">17.99</span></th>
+                            <th >$<span id="totalPrice" method="POST" >17.99</span></th>
                         </tr>
                     </table>
                 </section>
                 <button type="Submit" class="btn">Check Out</button>
 
 
-                <select class="btn">
+                <select class="btn" >
                     <option value="1">Quantity</option>
                     <option value="1">One (1)</option>
                     <option value="2">Two (2)</option>
@@ -62,8 +60,10 @@
                     <option value="4">Four (4)</option>
                     <option value="5">Five (5)</option>
                 </select>
+           
             </article>
         </section>
     </main>
-
+    <script src="index.js"></script>
+ <script src="shoppingCart.js"></script>
   {% endblock %}
